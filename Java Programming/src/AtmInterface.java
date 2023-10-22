@@ -60,7 +60,7 @@ class ATM {
 public class AtmInterface {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double initialBalance = 1000.0; // Initial balance for the bank account
+        double initialBalance = 1000.0; 
         BankAccount userAccount = new BankAccount(initialBalance);
         ATM atm = new ATM(userAccount);
 
