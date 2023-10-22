@@ -12,27 +12,37 @@ This repository contains tasks related to Java programming and C++ programming.
 This section lists tasks related to Java programming. Each task is explained in detail, and you can find the corresponding code and instructions in the dedicated directories.
 
 1. **Task 1: Task Description**
-   - [Code](/java-programming/task1)
-   - [Instructions](/java-programming/task1/README.md)
+   - **Student Grade Calculator**
+   - [Code](https://github.com/shankar212/CODSOFT/blob/main/Java%20Programming/src/StudentGradeCalculator.java)
 
 2. **Task 2: Task Description**
-   - [Code](/java-programming/task2)
-   - [Instructions](/java-programming/task2/README.md)
+   - **Number Game**
+   - [Code](https://github.com/shankar212/CODSOFT/blob/main/Java%20Programming/src/NumberGame.java)
 
+3. **Task 3: Task Description**
+   - **ATM Interface**
+   - [Code]([/java-programming/task2/README.md](https://github.com/shankar212/CODSOFT/blob/main/Java%20Programming/src/AtmInterface.java))
 <!-- Add more Java tasks as needed -->
-
+<hr>
 ## C++ Programming Tasks
 
 This section lists tasks related to C++ programming. Each task is explained in detail, and you can find the corresponding code and instructions in the dedicated directories.
 
 1. **Task 1: Task Description**
-   - [Code](/c++-programming/task1)
-   - [Instructions](/c++-programming/task1/README.md)
+   - **Number Guessing Game**
+   - [Code](https://github.com/shankar212/CODSOFT/blob/main/C%2B%2B%20Programming/NumberGuessingGame.cpp)
 
 2. **Task 2: Task Description**
-   - [Code](/c++-programming/task2)
-   - [Instructions](/c++-programming/task2/README.md)
+   - **Simple Calculator**
+   - [Code](https://github.com/shankar212/CODSOFT/blob/main/C%2B%2B%20Programming/SimpleCalculator.cpp)
 
-<!-- Add more C++ tasks as needed -->
+3. **Task 3: Task Description**
+   - **Tic-Tac-Toe Game**
+   - [Code](https://github.com/shankar212/CODSOFT/blob/main/C%2B%2B%20Programming/TicTacToeGame.cpp)
+4. **Task 4: Task Description**
+   - **To-Do List**
+   - [Code](https://github.com/shankar212/CODSOFT/blob/main/C%2B%2B%20Programming/ToDoList.cpp)
 
-## Getting Started
+
+## Thank you 
+<hr>
