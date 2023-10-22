@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Function for making board
+// making board
 void displayBoard(char board[3][3]) {
     cout << "Custom Tic-Tac-Toe Board:" << endl;
     for (int i = 0; i < 3; i++) {
@@ -19,21 +19,21 @@ void displayBoard(char board[3][3]) {
     cout << endl;
 }
 
-// Function to checking if a player has won
+// checking player has won or not
 bool checkWin(char board[3][3], char player) {
     for (int i = 0; i < 3; i++) {
         if (board[i][0] == player && board[i][1] == player && board[i][2] == player) {
-            return true; // Check rows
+            return true; 
         }
         if (board[0][i] == player && board[1][i] == player && board[2][i] == player) {
-            return true; // Check columns
+            return true;
         }
     }
     if (board[0][0] == player && board[1][1] == player && board[2][2] == player) {
-        return true; // Check diagonal (top left to bottom right)
+        return true; 
     }
     if (board[0][2] == player && board[1][1] == player && board[2][0] == player) {
-        return true; // Check diagonal (top right to bottom left)
+        return true; 
     }
     return false;
 }
@@ -50,7 +50,7 @@ bool checkDraw(char board[3][3]) {
 }
 
 int main() {
-    char board[3][3] = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}}; //empty board
+    char board[3][3] = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
     char currentPlayer = 'X'; 
     bool gameover = false;
 
@@ -62,7 +62,7 @@ int main() {
         int row, col;
         cout << "Player " << currentPlayer << ", enter row (1-3) and column (1-3) separated by a space: ";
         cin >> row >> col;
-        row--; // Converting 0based index
+        row--; 
         col--;
 
         if (row >= 0 && row < 3 && col >= 0 && col < 3 && board[row][col] == ' ') {
@@ -77,7 +77,7 @@ int main() {
                 cout << "It's a friendly draw!" << endl;
                 gameover = true;
             } else {
-                currentPlayer = (currentPlayer == 'X') ? 'O' : 'X'; // Switch players
+                currentPlayer = (currentPlayer == 'X') ? 'O' : 'X'; 
             }
         } else {
             cout << "Invalid move. Please try again." << endl;
