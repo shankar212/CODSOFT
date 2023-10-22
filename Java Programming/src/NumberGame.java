@@ -8,7 +8,7 @@ public class NumberGame {
 
         int minRange = 1;
         int maxRange = 100;
-        int maxAttempts = 7; //number of attempts
+        int maxAttempts = 7; 
         int rounds = 0;
         int totalScore = 0;
 
