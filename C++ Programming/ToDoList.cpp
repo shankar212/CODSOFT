@@ -22,7 +22,7 @@ void displayList(const vector<pair<string, bool>>& tasks) {
 }
 
 int main() {
-    vector<pair<string, bool>> todoList; // Each task is paired with a boolean indicating completion status
+    vector<pair<string, bool>> todoList;
 
     cout << "Welcome to the To-Do List Manager!" << endl;
 
@@ -42,7 +42,7 @@ int main() {
             case 1: {
                 string task;
                 cout << "Enter the task to add: ";
-                cin.ignore(); // Clear the newline character
+                cin.ignore(); 
                 getline(cin, task);
                 todoList.push_back(make_pair(task, false)); //task pending by default
                 cout << "Task added: " << task << endl;
@@ -56,7 +56,7 @@ int main() {
                 cout << "Enter the index of the task to mark as completed: ";
                 cin >> index;
                 if (index >= 1 && index <= static_cast<int>(todoList.size())) {
-                    todoList[index - 1].second = true; // Marking the task as completed
+                    todoList[index - 1].second = true;
                     cout << "Task marked as completed: " << todoList[index - 1].first << endl;
                 } else {
                     cout << "Invalid task index." << endl;
